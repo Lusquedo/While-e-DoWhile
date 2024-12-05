@@ -21,7 +21,7 @@ public class Temperaturas {
 
         } while (celsius != 0);
 
-        System.out.println("Programa encerrado.");
+        System.out.println("Fim");
         scanner.close();
     }
 }
