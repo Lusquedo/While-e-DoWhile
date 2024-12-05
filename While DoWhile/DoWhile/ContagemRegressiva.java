@@ -16,7 +16,7 @@ public class ContagemRegressiva {
             numero--;
         }
 
-        System.out.println("Fim da contagem!");
+        System.out.println("Fim");
         scanner.close();
     }
 }
