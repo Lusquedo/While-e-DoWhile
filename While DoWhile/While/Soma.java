@@ -15,10 +15,10 @@ public class Soma {
             numero = scanner.nextInt();
 
             if (numero < 0) {
-                break; // Sai do loop se o número for negativo
+                break; 
             }
 
-            soma += numero; // Adiciona o número à soma se for positivo
+            soma += numero; 
         }
 
         System.out.println("A soma dos números positivos é: " + soma);
