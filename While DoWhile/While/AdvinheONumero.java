@@ -17,9 +17,9 @@ public class AdvinheONumero {
             tentativas++;
 
             if (tentativa > numeroCorreto) {
-                System.out.println("Muito alto! Tente novamente.");
+                System.out.println("Muito alto, Tente novamente.");
             } else if (tentativa < numeroCorreto) {
-                System.out.println("Muito baixo! Tente novamente.");
+                System.out.println("Muito baixo, Tente novamente.");
             }
         } while (tentativa != numeroCorreto);
 
